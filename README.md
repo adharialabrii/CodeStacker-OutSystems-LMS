@@ -71,6 +71,8 @@ Employees can create, manage, and track their leave requests.
 
 ## Leave Request Form Features
 
+![Leave Request Form](screenshots/leavereqform.png)
+
 The request form includes several automated calculations and validations:
 
 ### Balance Calculation
@@ -111,6 +113,8 @@ Additionally:
 
 # Manager Features
 
+![Manager Screen](screenshots/managerdashboard.png)
+
 Managers can review and manage employee leave requests.
 
 ### Manager Dashboard
@@ -138,6 +142,10 @@ Admins manage the leave system configuration and monitor overall activity.
 
 ## Leave Type Management
 
+<p align="center">
+  <img src="screenshots/leavetypes.png" width="45%" />
+  <img src="screenshots/editleavetype.png" width="45%" />
+</p>
 Admins can:
 
 - Create new leave types
@@ -148,6 +156,8 @@ Admins can:
 ### Soft Delete
 
 Leave types are deleted using **soft delete** to ensure that historical leave request records remain intact.
+
+![Leave type form](screenshots/leavetypeform.png)
 
 Each leave type includes:
 
@@ -161,6 +171,8 @@ Inactive leave types are hidden from the **leave request dropdown** in the leave
 ---
 
 # Admin Dashboard
+
+![Admin dashboard](screenshots/admindashboard.png)
 
 The admin dashboard provides system-wide insights.
 
@@ -184,6 +196,8 @@ Charts display:
 ---
 
 ### Request Monitoring
+
+![Admin dashboard2](screenshots/admindashboard2.png)
 
 Admins can:
 
