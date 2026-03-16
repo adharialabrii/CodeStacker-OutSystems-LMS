@@ -52,6 +52,8 @@ https://personal-vakhoryl.outsystemscloud.com/LeaveManagementSystem/Login
 
 ## Employee Features
 
+![Employee Screen](screenshots/employeepage.png)
+
 Employees can create, manage, and track their leave requests.
 
 ### Capabilities
@@ -154,7 +156,7 @@ Each leave type includes:
 - Description
 - Status (Active / Inactive)
 
-Inactive leave types are hidden from the **leave request dropdown**.
+Inactive leave types are hidden from the **leave request dropdown** in the leave request form.
 
 ---
 
@@ -176,8 +178,8 @@ The admin dashboard provides system-wide insights.
 Charts display:
 
 - **Top 5 leave types requested this month**
-- **Leave request distribution by status**
-- **Approved vs rejected requests per day**
+- **Leave request distribution by status this month**
+- **Approved vs rejected requests per day during the current week**
 
 ---
 
@@ -216,13 +218,15 @@ When an employee selected a leave type that had not been used before, the system
 ### Solution
 
 A validation condition checks if the approved leave days value is **null**.  
-If no records exist, the system automatically replaces it with **0**.
+If no records exist, the system automatically replaces it with **0** and the balance will equal the default days for that particular leave type.
 
 ---
 
-## Challenge 3: Inactive Leave Types in Historical Requests
+## Challenge 3: Maintaining Historical Data for Inactive Leave Types
 
-Previously saved leave requests could reference leave types that were later marked inactive.
+Some leave requests were created using leave types that were later marked as inactive in the system. Normally, inactive leave types are hidden from selection lists to prevent users from choosing them for new requests. However, this created an issue when editing existing requests.
+
+When a user opened an older leave request in the edit screen, the original leave type could not be displayed because it was inactive and therefore excluded from the available options.
 
 ### Solution
 
