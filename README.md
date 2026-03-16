@@ -125,6 +125,8 @@ The dashboard provides an overview of:
 - Approved requests this week
 - Rejected requests this week
 
+![Details Screen](screenshots/detailsscreen.png)
+
 Managers can:
 
 - Approve or decline requests instantly
