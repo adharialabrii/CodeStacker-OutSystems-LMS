@@ -1,4 +1,4 @@
-# OutSystems challenge project developed for Rihal CodeStacker 2026
+# Rihal CodeStacker OutSystems challenge 2026
 
 # Leave Management System (OutSystems)
 
@@ -16,7 +16,7 @@ The system provides a centralized platform where:
 
 - Employees can submit and track leave requests
 - Managers can approve or reject requests
-- Administrators can manage leave types and monitor system-wide statistics
+- Administrators can manage leave types, monitor requests and view dashboards
 
 The application improves efficiency by automating leave calculations, validation rules, and approval workflows.
 
@@ -63,7 +63,7 @@ Employees can create, manage, and track their leave requests.
   - Pending requests
   - Approved requests this month
   - Rejected requests this month
-- Search and filter requests by **leave type** or **status**
+- Search and filter requests by **leave type**, **status** or **leave name**
 
 ---
 
@@ -75,9 +75,9 @@ The request form includes several automated calculations and validations:
 
 - Balance is calculated based on the **selected leave type**
 - If the leave type has not been used before:
-  Balance = Default Days
+Balance = Default Days
 - If the leave type has been used before:
-  Balance = Default Days − Approved Leave Days
+Balance = Default Days − Approved Leave Days
 
 ---
 
