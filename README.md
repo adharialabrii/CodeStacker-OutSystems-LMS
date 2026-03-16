@@ -1,5 +1,4 @@
-# CodeStacker 2026 - OutSystems Challenge - Leave Management System
-OutSystems challenge project developed for Rihal CodeStacker 2026
+# OutSystems challenge project developed for Rihal CodeStacker 2026
 
 # Leave Management System (OutSystems)
 
@@ -239,21 +238,6 @@ Possible future improvements include:
 - Multi-level approval workflows
 - Department-based manager approvals
 - Carry-forward leave balances for unused leave days
-
----
-
-# Conclusion
-
-This project was a valuable learning experience and an opportunity to apply theoretical knowledge using the **OutSystems low-code platform**.
-
-As a third-year student, this challenge helped strengthen my understanding of:
-
-- Workflow automation
-- Validation logic
-- Role-based system design
-- Low-code application development
-
-Completing the project while balancing university work was challenging but rewarding, and I am proud of the final result.
 
 ---
 
