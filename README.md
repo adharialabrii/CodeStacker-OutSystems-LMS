@@ -36,6 +36,8 @@ https://personal-vakhoryl.outsystemscloud.com/LeaveManagementSystem/Login
 | Manager | Manager | Manager123 | Approve or reject employee requests |
 | Employee | Employee | Employee12345678 | Create and manage leave requests |
 | Employee | Employee2 | Employee2123 | Create and manage leave requests |
+| Employee | Employee3 | Employee3123 | Create and manage leave requests |
+
 
 ---
 
