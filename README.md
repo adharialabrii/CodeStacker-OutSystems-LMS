@@ -68,6 +68,7 @@ Employees can create, manage, and track their leave requests.
   - Approved requests this month
   - Rejected requests this month
 - Search and filter requests by **leave type**, **status** or **leave name**
+- View details of each request made
 
 ---
 
@@ -110,6 +111,7 @@ Additionally:
 
 - When the start date is selected, the end date automatically defaults to the same date.
 - Leave type dropdown only displays **active leave types**.
+- Inactive leave types are hidden from new selections but still shown in existing requests to preserve historical accuracy
 
 ---
 
@@ -127,11 +129,13 @@ The dashboard provides an overview of:
 - Approved requests this week
 - Rejected requests this week
 
+### Manager Details Screen
+
 ![Details Screen](screenshots/detailsscreen.png)
 
 Managers can:
 
-- Approve or decline requests instantly
+- Approve or decline **submitted** requests instantly
 - View request details before deciding
 - Search requests
 - Filter requests by status
@@ -165,7 +169,7 @@ Leave types are deleted using **soft delete** to ensure that historical leave re
 
 Each leave type includes:
 
-- Leave type name
+- A **unique** Leave type name
 - Default days per year
 - Description
 - Status (Active / Inactive)
